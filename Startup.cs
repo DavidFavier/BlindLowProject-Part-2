@@ -1,4 +1,4 @@
-using System;
+ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -25,7 +25,7 @@ namespace BlindLowVisionProject
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc(options => options.EnableEndpointRouting = false).AddXmlDataContractSerializerFormatters();
-            services.AddSingleton<ICustomerRepository, MockCustomerRepository>();
+            services.AddTransient<ICustomerRepository, MockCustomerRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

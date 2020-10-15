@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlindLowVisionProject", "BlindLowVisionProject.csproj", "{39D33B2E-FA35-448C-8D29-BDD7183C76EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlindLowVisionProject", "BlindLowVisionProject.csproj", "{39D33B2E-FA35-448C-8D29-BDD7183C76EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlindLowVisionProject.DataAccess", "..\BlindLowVisionProject.DataAccess\BlindLowVisionProject.DataAccess.csproj", "{E7336142-6B41-4FEA-A337-F97D3D812C5C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{39D33B2E-FA35-448C-8D29-BDD7183C76EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{39D33B2E-FA35-448C-8D29-BDD7183C76EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{39D33B2E-FA35-448C-8D29-BDD7183C76EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7336142-6B41-4FEA-A337-F97D3D812C5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7336142-6B41-4FEA-A337-F97D3D812C5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7336142-6B41-4FEA-A337-F97D3D812C5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7336142-6B41-4FEA-A337-F97D3D812C5C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

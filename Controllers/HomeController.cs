@@ -46,7 +46,7 @@ namespace BlindLowVisionProject.Controllers
             if (ModelState.IsValid)
             {
                 Customer newCustomer = _customerRepository.Add(customer);
-                return RedirectToAction("details", new { id = newCustomer.Id });
+                //return RedirectToAction("details", new { id = newCustomer.Id });
             }
 
             return View();
